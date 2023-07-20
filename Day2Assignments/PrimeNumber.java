@@ -13,7 +13,7 @@ public class PrimeNumber {
 		}
 		
 	}
-	if(flag) {
+	if(flag==true) {
 		System.out.println("The number is Prime No");
 	}
 	else 
