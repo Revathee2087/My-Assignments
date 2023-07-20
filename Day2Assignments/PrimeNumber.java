@@ -5,7 +5,7 @@ public class PrimeNumber {
 		int num=13;
 		boolean flag=false;
 	for(int i=2;i<num/2;i++) {
-		System.out.println(i+"/n"+num/2);
+		
 		if(num%2==0) {
 			flag=true;
 			break;
