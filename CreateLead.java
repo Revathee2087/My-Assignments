@@ -12,7 +12,7 @@ public class CreateLead {
 		driver.get("http://leaftaps.com/opentaps/control/login");
 
 	    driver.manage().window().maximize();	
-		
+	
 	    driver.findElement(By.id("username")).sendKeys("Demosalesmanager");
 	    driver.findElement(By.id("password")).sendKeys("crmsfa");
 	    driver.findElement(By.className("decorativeSubmit")).click();
